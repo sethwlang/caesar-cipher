@@ -20,4 +20,3 @@ Route::get('/', function () {
 Route::post('/encrypt', [CaesarCipherController::class, 'encrypt']);
 Route::post('/decrypt', [CaesarCipherController::class, 'decrypt']);
 
-//https://chat.openai.com/c/5ed015a2-b10c-4602-8cb0-827508dc578d
